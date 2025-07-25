@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 2;
+            margin: 0;
+            padding: 0px;
+            background-color: white;
+        }
+        header {
+            background: linear-gradient(to left, #2c3e50,#24e2d9 50%, #2c3e50);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 500%;
+            margin: auto;
+            overflow: hidden;
+            padding: 100px;
+            background: white;
+        }
+        img {
+            max-width: 40%;
+            height: 200px;
+            float: left;
+            margin: 0 20px 20px 0;
+            border-radius: 20%;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            margin-top: 30px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .contact-form button {
+            background: #444;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #444;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(to left, #2c3e50,#24e2d9 50%, #2c3e50);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Opções de Contato.</h1>
+    </header>
+    
+    <nav>
+        <li><a href="Inicio.html">Início</a></li>
+        <li><a href="Bio.html">Biografia</a></li>
+        <li><a href="Contato.html">Contato</a></li>
+    </nav>
+    
+    <div class="container">
+        <img src="entre-em-contato-conosco-projeto-de-fundo_23-2147626815.avif" alt="Uma Logo"
+        <div class="contact-info">
+            <h2>Informações de Contato:</h2>
+            <p><strong>Email:</strong> pedrohnduarte09@gmail.com</p>
+            <p><strong>Telefone:</strong> (16) 99xxx-xxxx</p>
+            <p><strong>GitHub:</strong> DuarteeDev</p>
+            <p><strong>Endereço:</strong> Rua x - 00 - Jaboticabal-SP</p>
+        </div>
+        
+        <div class="contact-form">
+            <h2>Envie sua Mensagem:</h2>
+            <form>
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu email" required>
+                <input type="text" placeholder="Assunto">
+                <textarea rows="5" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem.</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+     <marquee direction="right">Meu Site Pessoal.Todos os direitos reservados!</marquee>
+    </footer>
+</body>
+</html>

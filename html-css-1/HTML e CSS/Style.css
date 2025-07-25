@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    margin: 0;
+    padding: 0px;
+    background-color: white;
+}
+header {
+   background: linear-gradient(to left, #2c3e50,#24e2d9 50%, #2c3e50);
+   color: white;
+   padding: 50px 0;
+   text-align: center;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav {
+    background: #444;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 500px;
+    margin:auto;
+    overflow: hidden;
+    padding: 100px;
+  }
+  
+  .team {
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px;
+    float: right;
+  }
+img {
+    max-width: 40%;
+    height: auto;
+    float: left;
+    margin: 10px 20px 20px 0;
+    border-radius: 20%;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to left, #2c3e50,#24e2d9 50%, #2c3e50);
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    margin: 0;
+    padding: 0px;
+    background-color: white;
+}
+header {
+    background: linear-gradient(to left, #2c3e50,#24e2d9 50%, #2c3e50);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav {
+    background: #444;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 500%;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px;
+    background: white;
+}
+img {
+    max-width: 40%;
+    height: 100px;
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 50%;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to left, #2c3e50,#24e2d9 50%, #2c3e50);
+    color: white;
+    clear: both;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    margin: 0;
+    padding: 0px;
+    background-color: white;
+}
+header {
+    background: linear-gradient(to left, #2c3e50,#24e2d9 50%, #2c3e50);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav {
+    background: #444;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 500%;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px;
+    background: white;
+}
+img {
+    max-width: 40%;
+    height: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 20%;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.contact-form {
+    margin-top: 30px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact-form button {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background: #444;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to left, #2c3e50,#24e2d9 50%, #2c3e50);
+    color: white;
+}
